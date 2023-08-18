@@ -13,7 +13,7 @@ arrowMirrorArray(['a', 'b', 'c', 'd']); // => [ 'a', 'b', 'c', 'd', 'd', 'c', 'b
 const arrowMirrorArray = (array) => {
   let result = []
 
-  result.push(...array, ...array.reverse)
+  result.push(...array, ...array.reverse())
   return result
 }
 
