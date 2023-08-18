@@ -18,6 +18,13 @@ sandwich2("pb") // => "One sandwich with tomato and pb"
 ***********************************************************************/
 
 // Your code here
+function sandwichMaker () {
+  let order = 'One sandwich with tomatoe';
+  return function(foodStuff) {
+    order = order + ' and ' + foodStuff;
+    return order
+  }
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
